@@ -11,7 +11,8 @@
 		$bodySize = parseInt($('body').css('font-size')), //Body size of the document
 		discoID = false,
 		discoMode = false,
-		hayMode = false;
+		hayMode = false,
+		hayInterval = null;
 	
 	//Update dimensions on resize
 	$(w).resize(function() {
